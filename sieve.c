@@ -1,4 +1,4 @@
-/* Precondition: a is an array of length n.
+/* Precondition:  a is an array of length n.
    Postcondition: elements of a at prime indices are 1, all other elements 
                   are 0.
 */
