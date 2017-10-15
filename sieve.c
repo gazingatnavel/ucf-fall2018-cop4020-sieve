@@ -12,7 +12,9 @@ void sieve (int a[], int n) {
     /* Iterate array, marking each element that is at a composite (not prime)
        index to 0. */
     for (i = 2; i < n; i += 1) {
+        /* Element at a[i] is prime. */
         if (a[i] == 1) {
+            /* Set all elements with indices that are multiples of i to 0. */
             for (j = i + i; j < n; j += i) {
                 a[j] = 0;
             }
